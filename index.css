@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    background: #0369A1;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+@font-face {
+    font-family: digital;
+    src: url('digital-clock-font.ttf');
+}
+
+h3 {
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    /* identical to box height, or 90% */
+
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 20px;
+
+    color: #EEEEEE;
+}
+
+h6 {
+    font-family: digital;
+    margin-top: 20px;
+    margin-bottom: 6px;
+    background: black;
+    color: #E11D48;
+    font-size: 80px;
+    height: 80px;
+    width: 115px;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: end;
+    border: none;
+}
+
+.score {
+
+    border-radius: 5px;
+    text-align: center;
+}
+
+button {
+    font-family: digital;
+    background: inherit;
+    color: #BAE6FD;
+    border: 2px solid #BAE6FD;
+    font-size: larger;
+    height: 36px;
+    width: 45px;
+    border-radius: 5px;
+    margin-top: 26px;
+    margin-bottom: 70px;
+}
